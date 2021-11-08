@@ -1,0 +1,87 @@
+.size1,.size2{
+    color: white;
+    font-family: Yanone_Bold;
+    font-size: 100px;
+    z-index: 2;
+    position: absolute;
+}
+
+#size1-1{
+    top: 720px;
+    left: 1575px;
+}
+
+#size1-2{
+    top: 1100px;
+    left: 1575px;
+}
+
+#size1-3{
+    top: 1500px;
+    left: 1575px;
+}
+
+#size1-4{
+    top: 1910px;
+    left: 1575px;
+}
+
+#size1-5{
+    top: 720px;
+    left: 3617px;
+}
+
+#size1-6{
+    top: 1100px;
+    left: 3617px;
+}
+
+#size1-7{
+    top: 1500px;
+    left: 3617px;
+}
+
+#size1-8{
+    top: 1910px;
+    left: 3617px;
+}
+
+#size2-1{
+    top: 855px;
+    left: 1575px;
+}
+
+#size2-2{
+    top: 1235px;
+    left: 1575px;
+}
+
+#size2-3{
+    top: 1635px;
+    left: 1575px;
+}
+
+#size2-4{
+    top: 2045px;
+    left: 1575px;
+}
+
+#size2-5{
+    top: 855px;
+    left: 3617px;
+}
+
+#size2-6{
+    top: 1235px;
+    left: 3617px;
+}
+
+#size2-7{
+    top: 1635px;
+    left: 3617px;
+}
+
+#size2-8{
+    top: 2045px;
+    left: 3617px;
+}

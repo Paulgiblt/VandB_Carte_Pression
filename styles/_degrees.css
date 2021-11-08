@@ -1,0 +1,52 @@
+/*////////////////////////Pour Tous////////////////////////*/
+.degrees{
+    /*Taille*/
+    font-size: 76px;
+    /*FONT*/
+    font-family: Yanone_Bold;
+    /*Couleur*/
+    color: #0aee0a;
+    /*Position*/
+    position: absolute;
+    z-index: 2;
+}
+
+#degrees1{
+    top: 922px;
+    left: 1414px;
+}
+
+#degrees2{
+    top: 1303px;
+    left: 1414px;
+}
+
+#degrees3{
+    top: 1723px;
+    left: 1414px;
+}
+
+#degrees4{
+    top: 2107px;
+    left: 1414px;
+}
+
+#degrees5{
+    top: 922px;
+    left: 3491px;
+}
+
+#degrees6{
+    top: 1303px;
+    left: 3491px;
+}
+
+#degrees7{
+    top: 1723px;
+    left: 3491px;
+}
+
+#degrees8{
+    top: 2107px;
+    left: 3491px;
+}

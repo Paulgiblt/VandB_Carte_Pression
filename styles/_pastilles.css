@@ -1,0 +1,52 @@
+.pastille{
+    /*Taille*/
+    height: 227px;
+    width: 227px;
+    /*background*/
+    background: white;
+    /*position*/
+    z-index: 2;
+    position: absolute;
+    /*Bordure & Marges*/
+    border-radius: 50%;
+}
+
+#pastille1{
+    top: 700px;
+    left: 30px;
+}
+
+#pastille2{
+    top: 1075px;
+    left: 30px;
+}
+
+#pastille3{
+    top: 1470px;
+    left: 30px;
+}
+
+#pastille4{
+    top: 1917px;
+    left: 30px;
+}
+
+#pastille5{
+    top: 700px;
+    left: 2037px;
+}
+
+#pastille6{
+    top: 1075px;
+    left: 2037px;
+}
+
+#pastille7{
+    top: 1470px;
+    left: 2037px;
+}
+
+#pastille8{
+    top: 1917px;
+    left: 2037px;
+}

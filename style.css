@@ -1,0 +1,135 @@
+/*//////////////////////////FONT///////////////////////////*/
+@font-face {
+    font-family: "Yanone_Bold";
+    src: url(./fonts/Yanone-Bold.otf);
+}
+
+
+/*////////////////////////Pour Tous////////////////////////*/
+*{
+    font-family: Yanone_Bold;
+    color: white;
+}
+
+::-webkit-scrollbar{
+    visibility: hidden;
+}
+
+/*//////////////////////////Autres////////////////////////*/
+body{
+    /*Taille*/
+    height: 110vh;
+    width: 200vh;
+    /*Fond*/
+    background: center / cover no-repeat url('./img/background_Main.png');
+    /*Bordure & Marges*/
+    border : 0;
+    /*Overflow*/
+    overflow: hidden;  
+}
+
+div{
+    /*Bordure & Marges*/
+    margin: 10px;
+}
+
+form{
+    /*Taille*/
+    height: 89%;
+    width : 100%;
+    /*Overflow*/
+    overflow-y: scroll; 
+}
+
+.draft{
+    /*Taille*/
+    height: 430px;
+    width: 500px;
+    /*Bordure & Marges*/
+    margin: 10px auto 10px auto;
+    border: solid 3px;
+    border-radius: 10px;
+}
+
+h1{
+    /*Text Align*/
+    text-align: center;
+    /*Bordure & Marges*/
+    margin: 5px;
+}
+
+input{
+    /*Couleurs*/
+    color : black;
+    /*Bordure & Marges*/
+    margin: 5px;
+}
+
+textarea{
+    /*Couleurs*/
+    color:black;
+}
+
+.input-description{
+    /*Taille*/
+    height: 75px;
+    width: 250px;
+    /*Resize*/
+    resize: none;
+}
+
+.previewFlag{
+    /*Taille*/
+    height: 50px;
+    width: 50px;
+    /*Position*/
+    position: relative;
+    top: 20px;
+    /*Bordure & Marges*/
+    border-radius: 8px;
+}
+
+.imageCheck{
+    /*Bordure & Marges*/
+    border: hidden;
+    margin-left:10px ;
+}
+
+.imageCheck:hover{
+    /*Fond*/
+    background: rgb(85, 85, 85);
+    /*Transition*/
+    transform: scale(1.2);
+    transition: ease 1s;
+}
+
+button{
+    /*Bordure & Marges*/
+    border-radius: 10px;
+}
+
+.createBtn{
+    /*Taille*/
+    width: 100px;
+    height: 30px;
+    /*Couleurs*/
+    color: black;
+    /*Position*/
+    position : absolute;
+    top: 25%;
+    left: 1%;
+    /*Bordure & Marges*/
+    border: hidden;
+    border-radius: 20px;
+}
+
+.createBtn:hover{
+    /*Couleurs*/
+    color : white;
+    /*Fond*/
+    background: rgb(85, 85, 85);
+    /*Transition*/
+    transform: scale(1.2);
+    transition: ease 1s;
+}
+

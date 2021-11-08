@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VandB - Carte Pression</title>
+    <link rel="icon" href="./img/logo.png" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--DATALIST-->
+
+    <datalist id="color-list">
+        <option>Blonde</option>
+        <option>Blanche</option>
+        <option>Brune</option>
+        <option>Rousse</option>
+        <option>Fruits Rouges</option>
+    </datalist>
+
+    <form>
+        <div class="draft" id="draft1">
+            <h1>Pression 1</h1>
+            <div class="name">
+                <span class="nameTitle" id="#name1">Nom</span>
+                <input type="text" class="input-name input-type1" id="name1" placeholder="Nom">
+            </div>
+            <div class="description">
+                <label for="#description1">Description</label>
+                <textarea type="text" maxlength="180" class="input-description input-type1" id="description1" placeholder="Description"></textarea>
+            </div>
+            <div class="degrees">
+                <label for="#degrees1">Degrés</label>
+                <input type="number" class="input-degrees input-type1" id="degrees1" min=0 step=0.1 placeholder="Degrés">
+            </div>  
+            <div class="color">
+                <label for="color1">Couleur</label>
+                <input type="text" class="input-color input-type1" id="color1" list="color-list" placeholder="Couleur" onfocus="this.value=''" onchange="this.blur();">
+                <label for="#checkbox-color1">Autre couleur</label>
+                <input type="checkbox" class="checkbox-color input-type2" id="checkbox-color1">
+                <input type="color" class="other-color" id="other-color1" placeholder="Couleur">
+            </div>
+            <div class="flag">
+                <label for="flag1">Drapeau</label>
+                <input type="file" class="input-flag input-type1" id="flag1" placeholder="Drapeau">
+                <img class="previewFlag" id="previewFlag1"/>
+                <button class="imageCheck" id="imageCheck1">❔</button>
+                <span class="imageChecked" id="imageChecked1"></span>
+            </div>
+            <div class="prices">
+                <label for="price1-1">Prix Petit Contenant</label>
+                <input type="number" class="input-price1 input-type1" id="price1-1" min=0 step=0.1 placeholder="Prix (25cl ou 33cl)"><br>
+                <label for="price2-1">Prix Grand Contenant</label>    
+                <input type="number" class="input-price2 input-type1" id="price2-1" min=0 step=0.1 placeholder="Prix (33cl ou 50cl)">
+            </div>
+                
+        </div>
+        <div class="draft" id="draft2">
+            <h1>Pression 2</h1>
+            <div class="name">
+                <span class="nameTitle" id="#name2">Nom</span>
+                <input type="text" class="input-name input-type1" id="name2" placeholder="Nom">
+            </div>
+            <div class="description">
+                <label for="#description2">Description</label>
+                <textarea type="text" maxlength="180" class="input-description input-type1" id="description2" placeholder="Description"></textarea>
+            </div>
+            <div class="degrees">
+                <label for="#degrees2">Degrés</label>
+                <input type="number" class="input-degrees input-type1" id="degrees2" min=0 step=0.1 placeholder="Degrés">
+            </div>  
+            <div class="color">
+                <label for="color2">Couleur</label>
+                <input type="text" class="input-color input-type1" id="color2" list="color-list" placeholder="Couleur" onfocus="this.value=''" onchange="this.blur();">
+                <label for="#checkbox-color2">Autre couleur</label>
+                <input type="checkbox" class="checkbox-color input-type2" id="checkbox-color2">
+                <input type="color" class="other-color" id="other-color2" placeholder="Couleur">
+            </div>
+            <div class="flag">
+                <label for="flag2">Drapeau</label>
+                <input type="file" class="input-flag input-type1" id="flag2" placeholder="Drapeau">
+                <img class="previewFlag" id="previewFlag2"/>
+                <button class="imageCheck" id="imageCheck2">❔</button>
+                <span class="imageChecked" id="imageChecked2"></span>
+            </div>
+            <div class="prices">
+                <label for="price1-2">Prix Petit Contenant</label>
+                <input type="number" class="input-price1 input-type1" id="price1-2" min=0 step=0.1 placeholder="Prix (25cl ou 33cl)"><br>
+                <label for="price2-2">Prix Grand Contenant</label>    
+                <input type="number" class="input-price2 input-type1" id="price2-2" min=0 step=0.1 placeholder="Prix (33cl ou 50cl)">
+            </div>
+                
+        </div>
+        <div class="draft" id="draft3">
+            <h1>Pression 3</h1>
+            <div class="name">
+                <span class="nameTitle" id="#name3">Nom</span>
+                <input type="text" class="input-name input-type1" id="name3" placeholder="Nom">
+            </div>
+            <div class="description">
+                <label for="#description3">Description</label>
+                <textarea type="text" maxlength="180" class="input-description input-type1" id="description3" placeholder="Description"></textarea>
+            </div>
+            <div class="degrees">
+                <label for="#degrees3">Degrés</label>
+                <input type="number" class="input-degrees input-type1" id="degrees3" min=0 step=0.1 placeholder="Degrés">
+            </div>  
+            <div class="color">
+                <label for="color3">Couleur</label>
+                <input type="text" class="input-color input-type1" id="color3" list="color-list" placeholder="Couleur" onfocus="this.value=''" onchange="this.blur();">
+                <label for="#checkbox-color3">Autre couleur</label>
+                <input type="checkbox" class="checkbox-color input-type2" id="checkbox-color3">
+                <input type="color" class="other-color" id="other-color3" placeholder="Couleur">
+            </div>
+            <div class="flag">
+                <label for="flag3">Drapeau</label>
+                <input type="file" class="input-flag input-type1" id="flag3" placeholder="Drapeau">
+                <img class="previewFlag" id="previewFlag3"/>
+                <button class="imageCheck" id="imageCheck3">❔</button>
+                <span class="imageChecked" id="imageChecked3"></span>
+            </div>
+            <div class="prices">
+                <label for="price1-3">Prix Petit Contenant</label>
+                <input type="number" class="input-price1 input-type1" id="price1-3" min=0 step=0.1 placeholder="Prix (25cl ou 33cl)"><br>
+                <label for="price2-3">Prix Grand Contenant</label>    
+                <input type="number" class="input-price2 input-type1" id="price2-3" min=0 step=0.1 placeholder="Prix (33cl ou 50cl)">
+            </div>
+                
+        </div>
+        <div class="draft" id="draft4">
+            <h1>Pression 4</h1>
+            <div class="name">
+                <span class="nameTitle" id="#name3">Nom</span>
+                <input type="text" class="input-name input-type1" id="name4" placeholder="Nom">
+            </div>
+            <div class="description">
+                <label for="#description4">Description</label>
+                <textarea type="text" maxlength="180" class="input-description input-type1" id="description4" placeholder="Description"></textarea>
+            </div>
+            <div class="degrees">
+                <label for="#degrees4">Degrés</label>
+                <input type="number" class="input-degrees input-type1" id="degrees4" min=0 step=0.1 placeholder="Degrés">
+            </div>  
+            <div class="color">
+                <label for="color4">Couleur</label>
+                <input type="text" class="input-color input-type1" id="color4" list="color-list" placeholder="Couleur" onfocus="this.value=''" onchange="this.blur();">
+                <label for="#checkbox-color4">Autre couleur</label>
+                <input type="checkbox" class="checkbox-color input-type2" id="checkbox-color4">
+                <input type="color" class="other-color" id="other-color4" placeholder="Couleur">
+            </div>
+            <div class="flag">
+                <label for="flag4">Drapeau</label>
+                <input type="file" class="input-flag input-type1" id="flag4" placeholder="Drapeau">
+                <img class="previewFlag" id="previewFlag4"/>
+                <button class="imageCheck" id="imageCheck4">❔</button>
+                <span class="imageChecked" id="imageChecked4"></span>
+            </div>
+            <div class="prices">
+                <label for="price1-4">Prix Petit Contenant</label>
+                <input type="number" class="input-price1 input-type1" id="price1-4" min=0 step=0.1 placeholder="Prix (25cl ou 33cl)"><br>
+                <label for="price2-4">Prix Grand Contenant</label>    
+                <input type="number" class="input-price2 input-type1" id="price2-4" min=0 step=0.1 placeholder="Prix (33cl ou 50cl)">
+            </div>
+                
+        </div>
+        <div class="draft" id="draft5">
+            <h1>Pression 5</h1>
+            <div class="name">
+                <span class="nameTitle" id="#name5">Nom</span>
+                <input type="text" class="input-name input-type1" id="name5" placeholder="Nom">
+            </div>
+            <div class="description">
+                <label for="#description5">Description</label>
+                <textarea type="text" maxlength="180" class="input-description input-type1" id="description5" placeholder="Description"></textarea>
+            </div>
+            <div class="degrees">
+                <label for="#degrees5">Degrés</label>
+                <input type="number" class="input-degrees input-type1" id="degrees5" min=0 step=0.1 placeholder="Degrés">
+            </div>  
+            <div class="color">
+                <label for="color5">Couleur</label>
+                <input type="text" class="input-color input-type1" id="color5" list="color-list" placeholder="Couleur" onfocus="this.value=''" onchange="this.blur();">
+                <label for="#checkbox-color5">Autre couleur</label>
+                <input type="checkbox" class="checkbox-color input-type2" id="checkbox-color5">
+                <input type="color" class="other-color" id="other-color5" placeholder="Couleur">
+            </div>
+            <div class="flag">
+                <label for="flag5">Drapeau</label>
+                <input type="file" class="input-flag input-type1" id="flag5" placeholder="Drapeau">
+                <img class="previewFlag" id="previewFlag5"/>
+                <button class="imageCheck" id="imageCheck5">❔</button>
+                <span class="imageChecked" id="imageChecked5"></span>
+            </div>
+            <div class="prices">
+                <label for="price1-5">Prix Petit Contenant</label>
+                <input type="number" class="input-price1 input-type1" id="price1-5" min=0 step=0.1 placeholder="Prix (25cl ou 33cl)"><br>
+                <label for="price2-5">Prix Grand Contenant</label>    
+                <input type="number" class="input-price2 input-type1" id="price2-5" min=0 step=0.1 placeholder="Prix (33cl ou 50cl)">
+            </div>
+                
+        </div>
+        <div class="draft" id="draft6">
+            <h1>Pression 6</h1>
+            <div class="name">
+                <span class="nameTitle" id="#name6">Nom</span>
+                <input type="text" class="input-name input-type1" id="name6" placeholder="Nom">
+            </div>
+            <div class="description">
+                <label for="#description6">Description</label>
+                <textarea type="text" maxlength="180" class="input-description input-type1" id="description6" placeholder="Description"></textarea>
+            </div>
+            <div class="degrees">
+                <label for="#degrees6">Degrés</label>
+                <input type="number" class="input-degrees input-type1" id="degrees6" min=0 step=0.1 placeholder="Degrés">
+            </div>  
+            <div class="color">
+                <label for="color6">Couleur</label>
+                <input type="text" class="input-color input-type1" id="color6" list="color-list" placeholder="Couleur" onfocus="this.value=''" onchange="this.blur();">
+                <label for="#checkbox-color6">Autre couleur</label>
+                <input type="checkbox" class="checkbox-color input-type2" id="checkbox-color6">
+                <input type="color" class="other-color" id="other-color6" placeholder="Couleur">
+            </div>
+            <div class="flag">
+                <label for="flag6">Drapeau</label>
+                <input type="file" class="input-flag input-type1" id="flag6" placeholder="Drapeau">
+                <img class="previewFlag" id="previewFlag6"/>
+                <button class="imageCheck" id="imageCheck6">❔</button>
+                <span class="imageChecked" id="imageChecked6"></span>
+            </div>
+            <div class="prices">
+                <label for="price1-6">Prix Petit Contenant</label>
+                <input type="number" class="input-price1 input-type1" id="price1-6" min=0 step=0.1 placeholder="Prix (25cl ou 33cl)"><br>
+                <label for="price2-6">Prix Grand Contenant</label>    
+                <input type="number" class="input-price2 input-type1" id="price2-6" min=0 step=0.1 placeholder="Prix (33cl ou 50cl)">
+            </div>
+                
+        </div>
+        <div class="draft" id="draft7">
+            <h1>Pression 7</h1>
+            <div class="name">
+                <span class="nameTitle" id="#name7">Nom</span>
+                <input type="text" class="input-name input-type1" id="name7" placeholder="Nom">
+            </div>
+            <div class="description">
+                <label for="#description7">Description</label>
+                <textarea type="text" maxlength="180" class="input-description input-type1" id="description7" placeholder="Description"></textarea>
+            </div>
+            <div class="degrees">
+                <label for="#degrees7">Degrés</label>
+                <input type="number" class="input-degrees input-type1" id="degrees7" min=0 step=0.1 placeholder="Degrés">
+            </div>  
+            <div class="color">
+                <label for="color7">Couleur</label>
+                <input type="text" class="input-color input-type1" id="color7" list="color-list" placeholder="Couleur" onfocus="this.value=''" onchange="this.blur();">
+                <label for="#checkbox-color7">Autre couleur</label>
+                <input type="checkbox" class="checkbox-color input-type2" id="checkbox-color7">
+                <input type="color" class="other-color" id="other-color7" placeholder="Couleur">
+            </div>
+            <div class="flag">
+                <label for="flag7">Drapeau</label>
+                <input type="file" class="input-flag input-type1" id="flag7" placeholder="Drapeau">
+                <img class="previewFlag" id="previewFlag7"/>
+                <button class="imageCheck" id="imageCheck7">❔</button>
+                <span class="imageChecked" id="imageChecked7"></span>
+            </div>
+            <div class="prices">
+                <label for="price1-7">Prix Petit Contenant</label>
+                <input type="number" class="input-price1 input-type1" id="price1-7" min=0 step=0.1 placeholder="Prix (25cl ou 33cl)"><br>
+                <label for="price2-7">Prix Grand Contenant</label>    
+                <input type="number" class="input-price2 input-type1" id="price2-7" min=0 step=0.1 placeholder="Prix (33cl ou 50cl)">
+            </div>
+                
+        </div>
+        <div class="draft" id="draft8">
+            <h1>Pression 8</h1>
+            <div class="name">
+                <span class="nameTitle" id="#name8">Nom</span>
+                <input type="text" class="input-name input-type1" id="name8" placeholder="Nom">
+            </div>
+            <div class="description">
+                <label for="#description8">Description</label>
+                <textarea type="text" maxlength="180" class="input-description input-type1" id="description8" placeholder="Description"></textarea>
+            </div>
+            <div class="degrees">
+                <label for="#degrees8">Degrés</label>
+                <input type="number" class="input-degrees input-type1" id="degrees8" min=0 step=0.1 placeholder="Degrés">
+            </div>  
+            <div class="color">
+                <label for="color8">Couleur</label>
+                <input type="text" class="input-color input-type1" id="color8" list="color-list" placeholder="Couleur" onfocus="this.value=''" onchange="this.blur();">
+                <label for="#checkbox-color8">Autre couleur</label>
+                <input type="checkbox" class="checkbox-color input-type2" id="checkbox-color8">
+                <input type="color" class="other-color" id="other-color8" placeholder="Couleur">
+            </div>
+            <div class="flag">
+                <label for="flag8">Drapeau</label>
+                <input type="file" class="input-flag input-type1" id="flag8" placeholder="Drapeau">
+                <img class="previewFlag" id="previewFlag8"/>
+                <button class="imageCheck" id="imageCheck8">❔</button>
+                <span class="imageChecked" id="imageChecked8"></span>
+            </div>
+            <div class="prices">
+                <label for="price1-8">Prix Petit Contenant</label>
+                <input type="number" class="input-price1 input-type1" id="price1-8" min=0 step=0.1 placeholder="Prix (25cl ou 33cl)"><br>
+                <label for="price2-8">Prix Grand Contenant</label>    
+                <input type="number" class="input-price2 input-type1" id="price2-8" min=0 step=0.1 placeholder="Prix (33cl ou 50cl)">
+            </div>
+                
+        </div>
+        <input type="submit" class="createBtn" value="Créer" id="createBtn">
+    </form>    
+    <script src="./index.js"></script>
+</body>
+</html>

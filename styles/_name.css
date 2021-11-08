@@ -1,0 +1,52 @@
+/*////////////////////////Pour Tous////////////////////////*/
+.name{
+    /*FONT*/
+    font-family: Yanone_Bold;
+    /*Couleur*/
+    color: white;
+    /*Taille*/
+    font-size: 125px;
+    /*Position*/
+    position: absolute;
+    z-index: 2;
+}
+
+#name1{
+    top: 715px;
+    left: 320px;
+}
+
+#name2{
+    top: 1100px;
+    left: 320px;
+}
+
+#name3{
+    top: 1500px;
+    left: 320px;
+}
+
+#name4{
+    top: 1907px;
+    left: 320px;
+}
+
+#name5{
+    top: 715px;
+    left: 2325px;
+}
+
+#name6{
+    top: 1100px;
+    left: 2325px;
+}
+
+#name7{
+    top: 1500px;
+    left: 2325px;
+}
+
+#name8{
+    top: 1907px;
+    left: 2325px;
+}

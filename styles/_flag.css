@@ -1,0 +1,46 @@
+.flag{
+    height: 75px;
+    width: 126px;
+    z-index: 2;
+    position: absolute;
+}
+
+#flag1{
+    top: 776px;
+    left:84px;
+}
+
+#flag2{
+    top: 1152px;
+    left:84px;
+}
+
+#flag3{
+    top: 1552px;
+    left:84px;
+}
+
+#flag4{
+    top: 1995px;
+    left:84px;
+}
+
+#flag5{
+    top: 776px;
+    left:2091px;
+}
+
+#flag6{
+    top: 1152px;
+    left:2091px;
+}
+
+#flag7{
+    top: 1552px;
+    left:2091px;
+}
+
+#flag8{
+    top: 1995px;
+    left:2091px;
+}

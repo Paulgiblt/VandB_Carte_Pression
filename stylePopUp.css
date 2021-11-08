@@ -1,0 +1,22 @@
+@import url(./styles/_pastilles.css);
+@import url(./styles/_name.css);
+@import url(./styles/_description.css);
+@import url(./styles/_degrees.css);
+@import url(./styles/_flag.css);
+@import url(./styles/_size.css);
+@import url(./styles/_prices.css);
+
+/*//////////////////////////FONT///////////////////////////*/
+@font-face {
+    font-family: "Yanone_Bold";
+    src: url(../fonts/Yanone-Bold.otf);
+}
+
+body{
+    margin: 0;
+}
+
+span{
+    white-space:nowrap;
+}
+

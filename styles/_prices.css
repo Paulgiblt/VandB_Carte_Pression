@@ -1,0 +1,87 @@
+.price1,.price2{
+    color: white;
+    font-family: Yanone_Bold;
+    font-size: 165px;
+    z-index: 2;
+    position: absolute;
+}
+
+#price1-1{
+    top: 665px;
+    left: 1790px;
+}
+
+#price1-2{
+    top: 1055px;
+    left: 1790px;
+}
+
+#price1-3{
+    top: 1455px;
+    left: 1790px;
+}
+
+#price1-4{
+    top: 1865px;
+    left: 1790px;
+}
+
+#price1-5{
+    top: 665px;
+    left: 3820px;
+}
+
+#price1-6{
+    top: 1055px;
+    left: 3820px;
+}
+
+#price1-7{
+    top: 1455px;
+    left: 3820px;
+}
+
+#price1-8{
+    top: 1865px;
+    left: 3820px;
+}
+
+#price2-1{
+    top: 805px;
+    left: 1790px;
+}
+
+#price2-2{
+    top: 1190px;
+    left: 1790px;
+}
+
+#price2-3{
+    top: 1590px;
+    left: 1790px;
+}
+
+#price2-4{
+    top: 2000px;
+    left: 1790px;
+}
+
+#price2-5{
+    top: 800px;
+    left: 3820px;
+}
+
+#price2-6{
+    top: 1190px;
+    left: 3820px;
+}
+
+#price2-7{
+    top: 1590px;
+    left: 3820px;
+}
+
+#price2-8{
+    top: 2000px;
+    left: 3820px;
+}
